@@ -1,0 +1,17 @@
+1. Which classifiers did you test?
+SVM, Decision Tree, KNN, Random Forest
+
+2. Which classifier gave the best accuracy?
+Random Forest achieved the highest accuracy, approximately 0.9649.
+
+3. What does the confusion matrix show?
+The confusion matrix shows how many samples were correctly and incorrectly classified.
+It summarizes the number of true positives, true negatives, false positives, and false negatives for each classifier.
+
+4. Was the model good at predicting both classes?
+Yes. The confusion matrices show that the classifiers predicted both malignant and benign tumors accurately.
+Only a few samples were misclassified, and Random Forest achieved the most balanced performance across both classes.
+
+5. Why is documentation important in an open-source ML project?
+Documentation helps other users understand the project, install dependencies, run the code, reproduce results, and contribute improvements.
+Good documentation makes machine learning projects easier to use, maintain, and share.
